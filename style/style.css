@@ -7,3 +7,74 @@
   font-weight: 400px;
   font-style: normal;
 }
+
+/* shared Style  */
+.display-flex{
+    display: flex;
+}
+.dark-1{
+    color: #131313;
+}
+.dark-2{
+    color: #424242;
+}
+.dark-3{
+    color: #727272;
+}
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.button-primary{
+   background-color: #FF900E;
+   padding: 15px 20px;
+   border-radius: 5px;
+   font-weight: 700px;
+   font-size: 1.25rem;
+   border: none;
+   color: white; 
+}
+
+
+/* header style  */
+
+
+/* nav style  */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    font-weight: bold;
+    font-size: 2.813rem;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+    
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 1.125rem;
+}
+.navbar, .banner{
+    max-width: 1453px;
+    margin: 0 auto;
+}
+/* banner style  */
+.banner-content{
+    max-width: 862px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 4rem;
+}
+.banner-description{
+    font-size: 1rem;
+}
+
+.banner-image{
+    width: 100%;
+    margin: 45px auto;
+}
